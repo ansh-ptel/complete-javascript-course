@@ -36,6 +36,7 @@
 // console.log(continent);
 // console.log(population);
 
+/* 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
@@ -54,3 +55,16 @@ console.log(typeof javascriptIsFun);
 let year;
 console.log(year);
 console.log(typeof year);
+*/
+
+let age = 24;
+//Reassigning value - Mutating variable 
+age = 25;
+
+const birthYear = 1998;
+// Immutable varible - Const can't be change.
+birthYear = 1999;
+
+var job = 'Programmer';
+//Never use var 
+job = 'Proffessor';
