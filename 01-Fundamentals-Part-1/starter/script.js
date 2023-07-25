@@ -71,6 +71,7 @@ var job = 'Programmer';
 job = 'Proffessor';
 */
 
+/*
 //Mathematical Operator
 const now = 2023;
 const ageAnshu = now - 1998;
@@ -95,3 +96,18 @@ console.log(x);
 
 //Comparison Operator
 console.log(ageAnshu > agePriyansh); //> , < , <= , >=
+*/
+
+const now = 2023;
+const ageAnshu = now - 1998;
+const agePriyansh = now - 1999;
+
+console.log(now - 1998 > now - 1995);
+
+//OPerator Precedence 
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10
+console.log(x, y);
+
+const averageAge = (ageAnshu + agePriyansh) / 2;
+console.log(ageAnshu, agePriyansh, averageAge)
