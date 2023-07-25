@@ -28,12 +28,29 @@
 // A S S I G N M E N T - 1
 
 // Declare variables called'country','continent'and'population'and assign their values according to your own country (population in millions)
-let country = 'India';
-let continent = 'Asia';
-let population = 'Too Much';
+// let country = 'India';
+// let continent = 'Asia';
+// let population = 'Too Much';
 
-console.log(country);
-console.log(continent);
-console.log(population);
+// console.log(country);
+// console.log(continent);
+// console.log(population);
+
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+
+console.log(typeof true);
+console.log(typeof javascriptIsFun);
+console.log(typeof 23);
+console.log(typeof 'Anshu');
 
 
+// Javascript dynamic Typing - changin variable type without let
+javascriptIsFun = 'HeyAnshu !';
+console.log(javascriptIsFun);
+console.log(typeof javascriptIsFun);
+
+//Undefined
+let year;
+console.log(year);
+console.log(typeof year);
