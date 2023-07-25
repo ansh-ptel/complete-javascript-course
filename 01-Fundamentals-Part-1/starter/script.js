@@ -57,6 +57,7 @@ console.log(year);
 console.log(typeof year);
 */
 
+/*
 let age = 24;
 //Reassigning value - Mutating variable 
 age = 25;
@@ -68,3 +69,29 @@ birthYear = 1999;
 var job = 'Programmer';
 //Never use var 
 job = 'Proffessor';
+*/
+
+//Mathematical Operator
+const now = 2023;
+const ageAnshu = now - 1998;
+const agePriyansh = now - 1999;
+
+console.log(ageAnshu, agePriyansh);
+console.log(ageAnshu * 2, agePriyansh / 2);
+
+const firstName = 'Anshu';
+const lastName = 'Patel';
+console.log(firstName + ' ' + lastName);
+
+//Assignment Operators
+
+let x = 10 + 5;
+x += 10;
+x *= 10;
+x++;
+x--;
+x--;
+console.log(x);
+
+//Comparison Operator
+console.log(ageAnshu > agePriyansh); //> , < , <= , >=
