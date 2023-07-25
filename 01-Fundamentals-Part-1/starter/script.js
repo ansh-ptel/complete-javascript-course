@@ -98,6 +98,7 @@ console.log(x);
 console.log(ageAnshu > agePriyansh); //> , < , <= , >=
 */
 
+/*
 const now = 2023;
 const ageAnshu = now - 1998;
 const agePriyansh = now - 1999;
@@ -111,3 +112,20 @@ console.log(x, y);
 
 const averageAge = (ageAnshu + agePriyansh) / 2;
 console.log(ageAnshu, agePriyansh, averageAge)
+*/
+
+/* Write your code below. Good luck! 🙂 */
+let massMark, heightMark, massJohn, heightJohn;
+massMark = 78;
+heightMark = 1.69;
+
+massJohn = 92;
+heightJohn = 1.95;
+
+let BMIMark = massMark / (heightMark * heightMark);
+let BMIJhon = massJohn / (heightJohn * heightJohn);
+
+console.log(BMIMark, BMIJhon);
+
+let markHigherBMI = BMIMark > BMIJhon;
+console.log(markHigherBMI);
