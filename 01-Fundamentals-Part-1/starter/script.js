@@ -36,7 +36,7 @@
 // console.log(continent);
 // console.log(population);
 
-/* 
+/*
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
@@ -59,7 +59,7 @@ console.log(typeof year);
 
 /*
 let age = 24;
-//Reassigning value - Mutating variable 
+//Reassigning value - Mutating variable
 age = 25;
 
 const birthYear = 1998;
@@ -67,7 +67,7 @@ const birthYear = 1998;
 birthYear = 1999;
 
 var job = 'Programmer';
-//Never use var 
+//Never use var
 job = 'Proffessor';
 */
 
@@ -105,7 +105,7 @@ const agePriyansh = now - 1999;
 
 console.log(now - 1998 > now - 1995);
 
-//OPerator Precedence 
+//OPerator Precedence
 let x, y;
 x = y = 25 - 10 - 5; // x = y = 10
 console.log(x, y);
@@ -114,7 +114,7 @@ const averageAge = (ageAnshu + agePriyansh) / 2;
 console.log(ageAnshu, agePriyansh, averageAge)
 */
 
-/* Write your code below. Good luck! 🙂 
+/* Write your code below. Good luck! 🙂
 let massMark, heightMark, massJohn, heightJohn;
 massMark = 78;
 heightMark = 1.69;
@@ -144,7 +144,7 @@ console.log(anshu);
 const anshuNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
 console.log(anshuNew);
 
-//Without using(Template Literals) `` 
+//Without using(Template Literals) ``
 console.log('String with \n\
 Multiple \n\
 lines');
@@ -155,6 +155,8 @@ Template Literals
 woow`);
 */
 
+/*
+// IF ELSE Statements
 const age = 15;
 
 if (age >= 18) {
@@ -173,3 +175,22 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century)
+*/
+
+// Coding Challenge 2 
+
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIMark, BMIJohn);
+
+/* Write your code below. Good luck! 🙂 */
+if (BMIMark > BMIJohn) {
+    console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+} else {
+    console.log(`"John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
+}
