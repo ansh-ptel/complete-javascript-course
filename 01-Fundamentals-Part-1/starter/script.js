@@ -114,7 +114,7 @@ const averageAge = (ageAnshu + agePriyansh) / 2;
 console.log(ageAnshu, agePriyansh, averageAge)
 */
 
-/* Write your code below. Good luck! 🙂 */
+/* Write your code below. Good luck! 🙂 
 let massMark, heightMark, massJohn, heightJohn;
 massMark = 78;
 heightMark = 1.69;
@@ -129,3 +129,25 @@ console.log(BMIMark, BMIJhon);
 
 let markHigherBMI = BMIMark > BMIJhon;
 console.log(markHigherBMI);
+*/
+
+const firstName = 'Anshu';
+const job = 'Programmer';
+const birthYear = 1998;
+const year = 2023;
+
+const anshu = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+console.log(anshu);
+
+const anshuNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(anshuNew);
+
+//Without using(Template Literals) `` 
+console.log('String with \n\
+Multiple \n\
+lines');
+
+//With using ``
+console.log(`String with
+Template Literals
+woow`);
